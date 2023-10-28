@@ -31,3 +31,25 @@ a .nav-link:hover{
     height: auto;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card-image{
+    margin: auto;
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+        
+    }
+}
+
+@media only screen and (min-width: 610px) {
+    .card-image{
+        margin: auto;
+        margin-top: 30px;
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+        
+    }
+}
